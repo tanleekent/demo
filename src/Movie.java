@@ -22,4 +22,10 @@ class Movie {
     public int getDuration() {
         return duration;
     }
+
+    public String getFormattedDuration() {
+        int hours = duration / 60;
+        int minutes = duration % 60;
+        return String.format("%02d:%02d", hours, minutes);
+    }
 }
