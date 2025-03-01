@@ -6,7 +6,7 @@ public class App {
         int choice;
 
         do {
-            System.out.println("\n=== Online Movie Ticketing System ===");
+            System.out.println("\n=== TARUMT Online Movie Ticketing System ===");
             System.out.println("1. View Movies");
             System.out.println("2. Book Ticket");
             System.out.println("3. Exit");
